@@ -5,6 +5,18 @@
 // Use of this source code is governed by terms that can be
 // found in the LICENSE file in the root of this package.
 
-Future<void> main() async {
-  print('Look into tests, to see ggParseStdout in action.');
+import 'package:gg_parse_stdout/src/gg_parse_stdout.dart';
+
+void main() {
+  print(
+    parseDartFilePathes(content)
+        .join('\n'), // [lib/src/tools/error_lines.dart:7:14]
+  );
 }
+
+// .............................................................................
+const content = '''
+Analyzing gg_check...
+info - lib/src/tools/error_lines.dart:7:14 - Missing documentation for a public member. Try adding documentation for the member. - public_member_api_docs
+1 issue found.
+''';

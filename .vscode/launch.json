@@ -9,7 +9,7 @@
       "name": "gg_parse_stdout.dart",
       "type": "dart",
       "request": "launch",
-      "program": "${workspaceFolder}/bin/gg_parse_stdout.dart",
+      "program": "${workspaceFolder}/example/gg_parse_stdout_example.dart",
       "args": ["--param", "value"],
       "console": "debugConsole"
     },
