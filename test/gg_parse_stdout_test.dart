@@ -44,8 +44,6 @@ void main() {
           expect(result[11], 'test/vscode/launch_json_test.dart');
           expect(result[12], 'test/vscode/launch_json_test.dart:64:11');
           expect(result[13], 'test/vscode/launch_json_test.dart');
-
-          print(result.join('\n'));
         });
       });
     });
