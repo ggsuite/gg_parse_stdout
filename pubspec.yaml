@@ -1,6 +1,6 @@
 name: gg_parse_stdout
 description: Provides methods to extract pathes from command line output in a vscode compatible form.
-version: 1.0.1
+version: 1.0.2
 repository: https://github.com/inlavigo/gg_parse_stdout.git
 
 environment:
