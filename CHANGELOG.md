@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [1.0.3] - 2024-04-13
 
 ### Changed
 
@@ -9,6 +9,7 @@
 ### Removed
 
 - dependency to gg\_install\_gg, remove ./check script
+- dependency pana
 
 ## [1.0.2] - 2024-04-09
 
@@ -28,6 +29,6 @@
 
 - Initial version.
 
-[Unreleased]: https://github.com/inlavigo/gg_parse_stdout/compare/1.0.2...HEAD
+[1.0.3]: https://github.com/inlavigo/gg_parse_stdout/compare/1.0.2...1.0.3
 [1.0.2]: https://github.com/inlavigo/gg_parse_stdout/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/inlavigo/gg_parse_stdout/compare/1.0.0...1.0.1
