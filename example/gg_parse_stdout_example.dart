@@ -9,8 +9,9 @@ import 'package:gg_parse_stdout/src/gg_parse_stdout.dart';
 
 void main() {
   print(
-    parseDartFilePathes(content)
-        .join('\n'), // [lib/src/tools/error_lines.dart:7:14]
+    parseDartFilePathes(
+      content,
+    ).join('\n'), // [lib/src/tools/error_lines.dart:7:14]
   );
 }
 
