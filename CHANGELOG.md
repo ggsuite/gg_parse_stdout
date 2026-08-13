@@ -1,29 +1,33 @@
 # Changelog
 
-## [Unreleased]
+## Unreleased
 
 ### Added
 
 - Add .gitattributes file
 
-## [1.0.3] - 2024-04-13
+### Changed
+
+- Rework copyright headers
+
+## 1.0.3 - 2024-04-13
 
 ### Changed
 
-- Upgraded gg\_args
+- Upgraded gg_args
 
 ### Removed
 
-- dependency to gg\_install\_gg, remove ./check script
+- dependency to gg_install_gg, remove ./check script
 - dependency pana
 
-## [1.0.2] - 2024-04-09
+## 1.0.2 - 2024-04-09
 
 ### Removed
 
 - 'Pipline: Disable cache'
 
-## [1.0.1] - 2024-04-09
+## 1.0.1 - 2024-04-09
 
 ### Changed
 
@@ -34,8 +38,3 @@
 ## 1.0.0 - 2024-01-01
 
 - Initial version.
-
-[Unreleased]: https://github.com/inlavigo/gg_parse_stdout/compare/1.0.3...HEAD
-[1.0.3]: https://github.com/inlavigo/gg_parse_stdout/compare/1.0.2...1.0.3
-[1.0.2]: https://github.com/inlavigo/gg_parse_stdout/compare/1.0.1...1.0.2
-[1.0.1]: https://github.com/inlavigo/gg_parse_stdout/compare/1.0.0...1.0.1
