@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `gg_parse_stdout` package.
-const String ggParseStdoutVersion = '1.1.0';
+const String ggParseStdoutVersion = '1.2.0';
